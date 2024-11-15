@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Paytone+One&family=Rubik+Wet+Paint&family=Sono:wght@200..800&display=swap" rel="stylesheet">
+
+    <title>Today I learned</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="logo" width="65" height="65">
+                <h1>Today i learned</h1>
+            </div>
+            <button class="btn btn-large btn-open">Share a fact</button>
+        </header>
+        <form action="" class="fact-form hidden">
+            <input type="text" placeholder="Write something: ">
+            <span>200</span>
+            <input type="text" placeholder="Source: ">
+            <select name="" id="">
+                <option value="">CHOOSE CATEGORY</option>
+                <option value="TECHNOLOGY">TECHNOLOGY</option>
+                <option value="SCIENCE">SCIENCE</option>
+                <option value="FINANCE">FINANCE</option>
+                <option value="SOCIETY">SOCIETY</option>
+                <option value="ENTERTAINMENT">ENTERTAINMENT</option>
+                <option value="HEALTH">HEALTH</option>
+                <option value="HISTORY">HISTORY</option>
+                <option value="NEWS">NEWS</option>
+            </select>
+            <button class="btn btn-large">POST</button>
+        </form>
+        <main class="main">
+            <aside>
+                <ul>
+                    <li class="category">
+                        <button class="btn btn-all">ALL</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #3b82f6;">TECHNOLOGY</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #16a34a;">SCIENCE</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #ef4444;">FINANCE</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #eab308;">SOCIETY</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #db2777;">ENTERTAINMENT</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #14b8a6;">HEALTH</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #f97316;">HISTORY</button>
+                    </li>
+                    <li class="category">
+                        <button class="btn btn-category" style="background-color: #8b5cf6;">NEWS</button>
+                    </li>
+                </ul>
+            </aside>
+            <section>
+                <ul class="facts-list">
+                    <li class="fact">
+                        <p>Woman puli yang, ok ban nhe
+                        <a class="source" href="https://www.facebook.com/pta.0412" target="_blank">{Source}</a></p>
+                        <span class="tag" style="background-color: #eab308;">#society#</span>
+                        <div class="vote-button">
+                            <button>✅ <b>10</b></button>
+                            <button>☯️ <b>5</b></button>
+                            <button>❎ <b>1</b></button>
+                        </div>
+                    </li>
+                    <li class="fact">
+                        <p>Anh Binz thông minh nhá
+                        <a class="source" href="https://www.facebook.com/lhs.0309/" target="_blank">{Source}</a></p>
+                        <span class="tag" style="background-color: #eab308;">#society#</span>
+                        <div class="vote-button">
+                            <button>✅ <b>100</b></button>
+                            <button>☯️ <b>50</b></button>
+                            <button>❎ <b>0</b></button>
+                        </div>
+                    </li>
+                </ul>
+                <p>Built by Ha Son</p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
